@@ -1,0 +1,57 @@
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(126, 126, 238);
+    padding: 20px;
+    height: 400px;
+    border-radius: 50px;
+    margin-top: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.login-page,
+.register-page {
+    flex: 1;
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.login-page {
+    margin-left: 30px;
+}
+
+.input-box input {
+    display: block;
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    text-indent: 15px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+button {
+    padding: 10px;
+    background-color: purple;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}

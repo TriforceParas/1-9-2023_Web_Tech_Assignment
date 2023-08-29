@@ -1,0 +1,60 @@
+.uni-name {
+    font-size: 38px;
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 40px;
+    color: brown;
+
+}
+
+.discription {
+    font-size: 28px;
+    margin-left: 40px;
+    font-family: Roboto;
+    color: lightsalmon;
+}
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.archivements {
+    background-color: rgba(255, 255, 255, 0.85);
+    display: inline-block;
+    margin-top: 200px;
+    padding: 50px;
+    margin: 120px;
+    margin-top: 160px;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+.archivements:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.title {
+    font-size: 55px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.archivement-container {
+    margin: 20px;
+}
+
+.archiv-title {
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.archiv-discription {
+    font-family: Roboto;
+    font-size: 23px;
+}

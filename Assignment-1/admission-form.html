@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="styles/admission-form.css">
+    <link rel="stylesheet" href="styles/backgroud-properties.css">
+    <link rel="stylesheet" href="styles/top-bar.css">
+    <link rel="stylesheet" href="styles/dropdown.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body background="images/univer-photo.png">
+    <div class="top-bar">
+        <div class="left-side">
+            <div class="uni-name">ABCXYZ INTERNATIONAL UNIVERSITY</div>
+            <div class="discription">India's Most Loved University</div>
+        </div>
+        <div class="right-side">
+            <div class="dropdown">
+                <button class="dropbtn">Contact Us</button>
+                <div class="dropdown-content">
+                    <a class="name" href="#">PARAS</a>
+                </div>
+            </div>
+            <div>Feedback</div>
+            <div>Placements</div>
+            <div>Campus</div>
+            <div>Student Life</div>
+        </div>
+    </div>
+    <div class="body-content-grid" style="display: grid; grid-template-columns: 1fr 1fr;">
+        <div class="archivements">
+            <div class="title">Archivements</div>
+            <div class="archivement-container">
+                <div class="archiv-title">Placements</div>
+                <div class="archiv-discription">Highest Placement reached by any college in whole world.</div>
+            </div>
+            <div class="archivement-container">
+                <div class="archiv-title">Sports</div>
+                <div class="archiv-discription">Won 12 Olympic medals (6 Gold, 6 Silver, No shitty Bronze).</div>
+            </div>
+            <div class="archivement-container">
+                <div class="archiv-title">Admission</div>
+                <div class="archiv-discription">Taken almost 40% admission via donations.</div>
+            </div>
+        </div>
+        <div class="admission-form">
+            <div class="form-title">Apply Now!</div>
+            <input class="f-name" placeholder="First Name">
+            <input class="l-name" placeholder="Last Name">
+            <input class="prn-number" placeholder="PRN No.">
+            <input class="address" placeholder="Address">
+            <select class="drop-menu" name="gender" id="gender">
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <input class="DOB" type="date">
+            <input class="contact-no" placeholder="Contact No.">
+            <select class="drop-menu" name="cho-course" id="cho-course">
+                <option value="" disabled selected>Choose your course</option>
+                <option value="bca">BCA</option>
+                <option value="bba-it">BBA-IT</option>
+                <option value="MSC-CA">MSC-CA</option>
+                <option value="mca">MCA</option>
+                <option value="mba-it">MBA-IT</option>
+            </select>
+            <input class="hobbies" placeholder="Your Hobbies">
+            <button class="submit-button">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>

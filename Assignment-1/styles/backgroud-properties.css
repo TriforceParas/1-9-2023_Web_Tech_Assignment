@@ -1,3 +1,13 @@
+/* CSS Code for Background Properties of College Admission Page */
+
+/* Main Body CSS Code */
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* University Name CSS Code */
 .uni-name {
     font-size: 38px;
     display: inline-block;
@@ -8,6 +18,7 @@
 
 }
 
+/* University Discription CSS Code */
 .discription {
     font-size: 28px;
     margin-left: 40px;
@@ -15,12 +26,7 @@
     color: lightsalmon;
 }
 
-body {
-    margin: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+/* Achievements panel CSS Code */
 .archivements {
     background-color: rgba(255, 255, 255, 0.85);
     display: inline-block;
@@ -36,6 +42,7 @@ body {
     background-color: rgba(255, 255, 255, 0.95);
 }
 
+/* Achievements Text CSS Code */
 .title {
     font-size: 55px;
     font-family: Roboto;
@@ -47,6 +54,7 @@ body {
     margin: 20px;
 }
 
+/* Achievements Title CSS Code */
 .archiv-title {
     font-size: 30px;
     font-family: Roboto;

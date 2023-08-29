@@ -1,3 +1,6 @@
+/* CSS Code for Main Contect of College Admission Page */
+
+/* Admission Form CSS Code */
 .admission-form {
     margin-top: 140px;
     display: grid;
@@ -27,6 +30,7 @@
     text-indent: 6px;
 }
 
+/* Form Title CSS Code */
 .form-title {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -34,6 +38,7 @@
     font-weight: bold;
 }
 
+/* Submit Button CSS Code */
 .submit-button {
     border: none;
     border-radius: 20px;

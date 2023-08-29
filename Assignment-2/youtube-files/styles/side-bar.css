@@ -1,3 +1,6 @@
+/* CSS Code for Side bar on YouTube Page */
+
+/* Side Bar Menu CSS Code */
 .side-bar-menu {
     position: fixed;
     top: 51px;
@@ -33,6 +36,7 @@
     background-color: rgb(240, 240, 240);
 }
 
+/* Main Body CSS Code */
 body {
     margin: 0;
     background-color: rgb(245, 245, 245);

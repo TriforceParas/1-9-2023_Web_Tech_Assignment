@@ -1,3 +1,6 @@
+/* CSS Code for Drop DOwn menu of College Admission Page */
+
+/* Dropdown Button CSS Code */
 .dropbtn {
     background-color: transparent;
     border: none;
@@ -5,11 +8,14 @@
     font-family: Roboto;
 }
 
+/* Dropdown conteent position CSS Code */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+
+/* Dropdown content CSS Code */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -19,6 +25,7 @@
     z-index: 1;
 }
 
+/* Text inside dropdown menu CSS Code */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;

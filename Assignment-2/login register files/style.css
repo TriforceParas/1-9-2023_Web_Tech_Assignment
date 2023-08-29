@@ -1,3 +1,11 @@
+/* CSS Code for Main Contect of Student information page in regional language */
+
+/* Main Body CSS Code */
+body {
+    background-color: lightblue;
+}
+
+/* Login Register Body CSS Code */
 .body {
     display: flex;
     flex-direction: row;
@@ -25,10 +33,12 @@
 
 }
 
+/* Login Page CSS Code */
 .login-page {
     margin-left: 30px;
 }
 
+/* Input Box CSS Code */
 .input-box input {
     display: block;
     margin-top: 10px;
@@ -41,10 +51,7 @@
     margin-bottom: 20px;
 }
 
-body {
-    background-color: lightblue;
-}
-
+/* Login Register Button CSS Code */
 button {
     padding: 10px;
     background-color: purple;

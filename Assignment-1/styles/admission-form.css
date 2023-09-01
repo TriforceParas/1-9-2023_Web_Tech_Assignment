@@ -39,16 +39,16 @@
 
 /* Submit Button CSS Code */
 .submit-button {
-    border: none;
-    border-radius: 20px;
+    border: solid 1px rgb(53, 161, 250);
+    border-radius: 21px;
     background-color: rgb(53, 161, 250);
     color: white;
     font-family: Roboto;
     font-weight: bold;
-    transition: 0.15s;
 }
 
 .submit-button:hover {
     background-color: rgb(224, 241, 255);
     color: rgb(53, 161, 250);
+    border: solid 1px;
 }

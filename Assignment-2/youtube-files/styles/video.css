@@ -26,7 +26,7 @@
 
 /* Recomended Video Thumbnail CSS Code */
 .reco-vid-thumbnail {
-    display: inline;
+    display: inline-block;
     position: relative;
 }
 
